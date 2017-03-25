@@ -49,5 +49,5 @@ create database DWNorthwind
     foreign key (ProductID)  references dbo.DimProduct(productID),
     foreign key (EmployeeID)     references dbo.DimEmployee(employeeID),
     foreign key (CustomerID)     references dbo.DimCustomer(CustomerID),
-    foreign key (orderDate)  references dbo.DimTime(ordeDate)
+    foreign key (orderDate)  references dbo.DimTime(orderDate)
   );
